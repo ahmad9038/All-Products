@@ -12,9 +12,12 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center h-screen">
         <div className="px-3 sm:px-5  w-full  min-h-screen">
           <div className=" flex items-center flex-col w-full  lg:w-[90%] md:w-[90%] mx-auto">
-            <h1 className="text-4xl text-white lg:text-5xl font-bold text-center py-8 mb-5">
+           <h1 className="text-4xl  text-white lg:text-5xl font-bold text-center px-8 pb-1 pt-8 ">
               All Products from Videos
             </h1>
+            <p className="mb-10 text-white text-[13px]">
+              As amazon affiliate, We earn from qualifying purchases
+            </p>
 
             <div className=" w-full mb-5">
               <Search />
